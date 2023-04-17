@@ -1,0 +1,24 @@
+body{
+    background-image: url("car-circuit-images.jpg");
+}
+div {
+    width: 100px;
+    height: 50px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    position: relative;
+    animation: car 5s infinite;
+    -webkit-animation: car 5s infinite;
+}
+  
+  .car1 {animation-timing-function: linear; bottom: 50px;}
+  .car2 {animation-timing-function: ease; bottom: 65px;}
+  .car3{animation-timing-function: ease-in; bottom: 80px;}
+  .car4 {animation-timing-function: ease-out;bottom: 95px;}
+  .car5 {animation-timing-function: ease-in-out;bottom: 110px;}
+  .car6 {animation-timing-function: linear; bottom: 125px;}
+
+  @keyframes car {
+    from {left: 0px;}
+    to {left: 1210px;}
+  }
